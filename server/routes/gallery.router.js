@@ -3,7 +3,7 @@ const router = express.Router();
 const pool = require('../modules/pool.js');
 
 // PUT /gallery/like/:id
-router.put('/api/gallery/like/:id', (req, res) => {
+router.put('/like/:id', (req, res) => {
   console.log('PUT request for id:', req.params.id);
   let sqlText = `UPDATE "gallery" SET "likes"="likes" + 1 WHERE "id"=$1;`;
 

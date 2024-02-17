@@ -22,9 +22,16 @@ let [galleryList, setGalleryList] = useState([]);
         fetchGallery, []
     );
 
-    
+    return (
+        <div id="photo-gallery" data-testid="galleryList">
+            {galleryList.map(photo => 
+                (<GalleryItem key={photo.id} fetchGallery={fetchGallery} id={photo.id} url={photo.url} title={photo.title} description={photo.description} likes={photo.likes}/>)
+            )}
 
 
+        </div>
+
+    )
 }
 
 export default GalleryList

@@ -1,0 +1,27 @@
+#photo-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-frame {
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.single_img {
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+}
