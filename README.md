@@ -14,6 +14,7 @@ In the form section, users can also input in the fields `url`, `title`, and `des
 ## Screenshot
 <img width="1268" alt="Screenshot 2024-02-18 at 3 53 03 PM" src="https://github.com/yalvarez08/weekend-React-Gallery/assets/145588787/7356b629-51df-496c-bdc7-7a4faad67036">
 
+
 <img width="1268" alt="Screenshot 2024-02-18 at 3 55 19 PM" src="https://github.com/yalvarez08/weekend-React-Gallery/assets/145588787/bb38f6a1-c2db-4081-b68c-7314c06b876f">
 
 
