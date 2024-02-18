@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .banner-header {
-    background-color: rgb(245, 125, 73);
-    text-align: center;
-    padding: 0.25em;
+    background-image: linear-gradient(to left top, #adefe0, #85e3ef, #75d1fe, #90baff, #bd9deb);
+    padding: 0.5em;
+}
+h1 {
+    text-align:center; 
+    font-size:50px;  
+    color: rgb(248, 243, 243); 
+    letter-spacing:1px;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 800;
+    text-shadow: 2px 2px 2px rgb(62, 62, 62);
+}
+h1 span {
+    margin-top: 5px;
+    font-size: 16px; 
+    color: rgb(248, 243, 243); 
+    word-spacing:1px; 
+    text-transform: lowercase;
+    font-weight:normal; 
+    letter-spacing:2px;
+    font-family: "DM Sans", sans-serif; 
+    font-weight: 500;
+  
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+  
+h1 span:after,h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #ece9e9;
+    border-top: 2px solid #ece9e9;
+    height: 3px;
+    
 }

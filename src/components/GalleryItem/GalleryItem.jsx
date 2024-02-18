@@ -33,8 +33,10 @@ const handleToggleImage = () => {
                 {toggle ? <img className="single_img" src={props.url}></img> : <p>{props.description}</p>}
 
             </span>
-            <button className="toggle-btn" data-testid="toggle" onClick={handleToggleImage}>Toggle Image</button>
-            <button className="like_btn" data-testid="like" onClick={() => handleLikeBtn(props.id)}>Like 👍</button>
+            <span className="img-btns">
+                <button className="toggle-btn" data-testid="toggle" onClick={handleToggleImage}>Toggle Image</button>
+                <button className="like-btn" data-testid="like" onClick={() => handleLikeBtn(props.id)}>Like 👍</button>
+            </span>
             <p>number of likes: {props.likes}</p>
 
         </div>

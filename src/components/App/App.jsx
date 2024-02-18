@@ -10,10 +10,7 @@ function App() {
     return (
       <div className="App" data-testid="app">
         <Header />
-
-        <GalleryList />
-        {/* <p>The gallery goes here!</p> */}
-        
+        <GalleryList />        
       </div>
     );
 }
