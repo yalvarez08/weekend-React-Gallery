@@ -1,5 +1,5 @@
-# Project Name
-*** Weekend Challenge: React Gallery ***
+# React Gallery
+*** Weekend Challenge ***
 
 ## Description
 
@@ -42,6 +42,7 @@ Here is a list of steps to follow:
 ## Built With
 - React
 - Node.js
+- Postgres
 
 
 
